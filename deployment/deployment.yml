@@ -19,6 +19,6 @@ spec:
         image: vmonrabal/udagram-user
         envFrom: 
           - secretRef: 
-            name: udagram-secrets
+              name: udagram-secrets
         ports:
         - containerPort: 8080      
