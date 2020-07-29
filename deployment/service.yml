@@ -10,4 +10,4 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: udagram-user-svc
+    app: udagram-user
